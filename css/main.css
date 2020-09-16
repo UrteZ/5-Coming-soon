@@ -11,7 +11,7 @@ word-break: break-all;
     background-color: #03a9f5;
 }
 .hero-bg {
-    background-image: url(../background.png);
+    background-image: url(../img/background.png);
     background-size: cover;
     background-position: bottom center;
 }
@@ -53,3 +53,37 @@ word-break: break-all;
             margin-left: calc( (100% - 600px) / 2);
         }
 
+@media (max-width: 1100px) {
+    .row {
+        width: 800px;
+        margin-left: calc( (100% - 800px) / 2);
+    }
+}
+@media (max-width: 900px) {
+    .row {
+        width: 600px;
+        margin-left: calc( (100% - 600pa) / 2);
+    }
+    .left-column {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    .right-column {
+        width: 100%;
+    }
+}
+@media (max-width: 700px) {
+    ..hero-row, .row, .footer-text {
+        width: 400px;
+        margin-left: calc( (100% - 400px) / 2);
+    }
+}
+@media (max-width: 500px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .hero-row, .row, .footer-text {
+        width: 100%;
+        margin-left: 0;
+    }
