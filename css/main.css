@@ -146,6 +146,7 @@ word-break: break-all;
     .copyright > .texts, .copyright > .texts.borders {
         width: 100%;
         border: none;
+        margin: 0;
     }
 }
 @media (max-width: 500px) {
