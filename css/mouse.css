@@ -20,7 +20,6 @@
         animation-duration: 2s;
         animation-fill-mode: forwards;
         animation-timing-function: ease;
-        animation-delay: 2s;
         animation-iteration-count: infinite;
     }
 @keyframes scrolling {
